@@ -1,9 +1,10 @@
 # AICP-TASKS-WEEK-5-
   **CAR PARK PARMENT SYSTEM**
+  
 A car park payment system allows customers to select the number of hours to leave their car in the car park. The customer will get a discount if they enter their frequent parking number correctly. The system calculates and displays the amount the customer must pay. The price of parking, the number of hours the customer can enter, and any discount depend upon the day of the week and the arrival time. The number of hours entered is a whole number. The price per hour is calculated using the price in force at the arrival time. No parking is allowed between Midnight and 08:00. 
 
 
-**Days of Week**                                                        **Arrival Time**
+ **Days of Week**                                                         **Arrival Time**
                                                          **From 08:00 - 15:59 From 16:00 - Midnight**
                                              ** Max Stay in hours  **                       ** Price per hour                Hour             Price**
 

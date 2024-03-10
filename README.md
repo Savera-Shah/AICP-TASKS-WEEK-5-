@@ -6,7 +6,7 @@ A car park payment system allows customers to select the number of hours to leav
 
  **Days of Week**                                                         **Arrival Time**
                                                          **From 08:00 - 15:59 From 16:00 - Midnight**
-                                             ** Max Stay in hours  **                       ** Price per hour                Hour             Price**
+                                             **Max Stay in hours**                     **Price per hour**             **Hour**       **Price**
 
 Sunday                                           8                                           2.00                  Up to midnight       2.00
 Monday                                           2                                           10.00                 Up to midnight       2.00
@@ -26,8 +26,8 @@ You will need to complete these three tasks. Each task must be fully tested.
 **Task 1** – Calculating the price to park.
 A customer inputs the day, the hour of arrival excluding minutes (for example 15:45 would be 15), the number of hours to leave their car, and a frequent parking number if available. If the frequent parking number has an incorrect check digit, then no discount can be applied. The price to park, based on the day, the hour of arrival, the number of hours of parking required and any discount available, is calculated and displayed.
 
-**Task 2 **– Keeping a total of the payments. 
+**Task 2**– Keeping a total of the payments. 
 Extend Task 1 to keep a daily total of payments made for parking. The daily total is zeroed at the start of the day. For the simulation, each customer inputs the amount paid, this must be greater than or equal to the amount displayed. There is no change given so the amount input may exceed the amount displayed. Each customer payment is added to the daily total, and this total is displayed at the end of the day.
 
-**Task 3 **– Making payments fairer.
+**Task 3**– Making payments fairer.
 Customers have complained that sometimes they are being charged too much if they arrive before 16:00 and depart after 16:00. Extend Task 1 to calculate the price before 16:00, then add the evening charge. For example, a customer arriving at 14:45 on a Sunday and parking for five hours was previously charged 10.00 and would now be charged 6.00
